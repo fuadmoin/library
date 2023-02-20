@@ -50,10 +50,8 @@ window.onload = () => {
       const button = event.target;
       const removeBook = JSON.parse(decodeURIComponent(button.dataset.book));
       const bookList = localStorage.getItem('bookList');
-      const bookArray = JSON.parse(bookList);
-      const filter = bookArray.filter(
-        (book) => book.title !== removeBook.title
-      );
+      const books = JSON.parse(bookList);
+      const filter = books.filter((book) => book.title !== removeBook.title);
       localStorage.setItem('bookList', JSON.stringify(filter));
       updateDisplay();
     }
