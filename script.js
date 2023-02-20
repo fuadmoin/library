@@ -45,6 +45,8 @@ addBook.addEventListener('click', (e) => {
 
   localStorage.setItem('bookList', JSON.stringify(changedArray));
   updateDisplay();
+  document.getElementById('title').value = '';
+  document.getElementById('author').value = '';
 });
 
 window.onload = () => {
