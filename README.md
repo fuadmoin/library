@@ -2,8 +2,6 @@
 
 ![S](https://user-images.githubusercontent.com/102650102/212134190-7ac324a6-f323-4c2b-ac30-44add2cedd26.png)
 
-
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -27,11 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-
 # 📖 Personal Portfolio <a name="about-project"></a>
 
-
-**Personal-portfolio** is an app to showcase my personal achievements.
+**Library** is an app to showcase pure javascript coding skill.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,7 +41,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-This is to showcase my abilities.
+This is to showcase javascript skill.
 
 - **Web designs**
 
@@ -55,7 +51,7 @@ This is to showcase my abilities.
 
 ## 🚀 Live Demo <a name="live-demo" title="Coming Soon"></a>
 
-https://sawmon71293.github.io/personal-portfolio/
+This is yet to be deployed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +114,7 @@ To run the project, execute the following command:
 I plan to add more personal project links this project:
 
 - [ ] **Implement a nice UI for great user experience**
-- [ ] **Create more projects**
+- [ ] **Add more functionalities**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

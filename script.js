@@ -35,8 +35,14 @@ addBook.addEventListener('click', (e) => {
   const author = document.getElementById('author').value;
   const book = new Book(title, author);
   const bookArray = localStorage.getItem('bookList');
-  const changedArray = JSON.parse(bookArray);
-  changedArray.push(book);
+  let changedArray = JSON.parse(bookArray);
+  if (changedArray) {
+    changedArray.push(book);
+  } else {
+    changedArray = [];
+    changedArray.push(book);
+  }
+
   localStorage.setItem('bookList', JSON.stringify(changedArray));
   updateDisplay();
 });
