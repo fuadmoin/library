@@ -25,7 +25,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Personal Portfolio <a name="about-project"></a>
+# 📖 Library <a name="about-project"></a>
 
 **Library** is an app to showcase pure javascript coding skill.
 
