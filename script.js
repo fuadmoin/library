@@ -5,7 +5,6 @@ class Book {
   }
 }
 const addBook = document.getElementById('addBook');
-const bookArray = [];
 function updateDisplay() {
   const bookList = document.getElementById('bookList');
   let books;
@@ -13,17 +12,17 @@ function updateDisplay() {
   const storedBookList = localStorage.getItem('bookList');
   if (storedBookList) {
     books = JSON.parse(storedBookList);
-    books.forEach((book, i) => {
+    books.forEach((book) => {
       const dataStr = encodeURIComponent(JSON.stringify(book));
-      const bookElement = `<div id='book_${
-        i + 1
-      }' class="d-flex justify-content-between" >
+      const bookElement = `<div class="d-flex flex-column justify-content-between" >
         <div>
-          <p>${book.title}</p>
-          <p>${book.author}</p>
+          <div>
+            <p>${book.title}</p>
+            <p>${book.author}</p>
+          </div>
+          <div><button data-book=${dataStr} data-action="remove" >Remove</button></div>
         </div>
-        <div><button data-book=${dataStr} data-action="remove" >Remove</button></div>
-        <div class="border-top"></div>
+        <div class="p-1 bg-dark w-100 mt-2 mb-2"></div>
       </div> `;
       bookList.innerHTML += bookElement;
     });
@@ -35,9 +34,19 @@ addBook.addEventListener('click', (e) => {
   const title = document.getElementById('title').value;
   const author = document.getElementById('author').value;
   const book = new Book(title, author);
-  bookArray.push(book);
-  localStorage.setItem('bookList', JSON.stringify(bookArray));
+  const bookArray = localStorage.getItem('bookList');
+  let changedArray = JSON.parse(bookArray);
+  if (changedArray) {
+    changedArray.push(book);
+  } else {
+    changedArray = [];
+    changedArray.push(book);
+  }
+
+  localStorage.setItem('bookList', JSON.stringify(changedArray));
   updateDisplay();
+  document.getElementById('title').value = '';
+  document.getElementById('author').value = '';
 });
 
 window.onload = () => {
@@ -49,10 +58,8 @@ window.onload = () => {
       const button = event.target;
       const removeBook = JSON.parse(decodeURIComponent(button.dataset.book));
       const bookList = localStorage.getItem('bookList');
-      const bookArray = JSON.parse(bookList);
-      const filter = bookArray.filter(
-        (book) => book.title !== removeBook.title
-      );
+      const books = JSON.parse(bookList);
+      const filter = books.filter((book) => book.title !== removeBook.title);
       localStorage.setItem('bookList', JSON.stringify(filter));
       updateDisplay();
     }
