@@ -106,8 +106,6 @@ window.onload = () => {
   section.style.display = 'block';
 
   const date = document.getElementById('time');
-  let time = new Date();
-  date.innerHTML= time.toDateString() + "," + time.toLocaleTimeString();
-
+  const time = new Date();
+  date.innerHTML = `${time.toDateString()} , ${time.toLocaleTimeString()}`;
 };
-
