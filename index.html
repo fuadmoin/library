@@ -13,9 +13,12 @@
     />
   </head>
   <body class="container">
-    <nav class="d-flex justify-content-between mb-5 mt-3">
-      <div class="mt-2"><p>Awesome Books</p></div>
+    <nav
+      class="d-flex justify-content-between mb-2 mt-3 navbar navbar-light bg-light"
+    >
+      <div class="mt-2 ms-3"><p>Awesome Books</p></div>
       <div>
+<<<<<<< HEAD
         <ul class="d-flex justify-content-around nav">
           <li class="me-3 nav-item">
             <a class="nav-link active link-dark" id="toList" href="#books">List</a>
@@ -25,12 +28,24 @@
           </li>
           <li class="me-3 nav-item">
             <a class="nav-link link-dark" id="toContact" href="#contact">Contact</a>
+=======
+        <ul class="d-flex justify-content-around list-unstyled">
+          <li class="me-3 mt-2 nav-item">
+            <a class="nav-link active" id="toList" href="#books">List</a>
+          </li>
+          <li class="me-3 mt-2 nav-item">
+            <a class="nav-link" id="toAdd" href="#add">Add new</a>
+          </li>
+          <li class="me-3 mt-2 nav-item">
+            <a class="nav-link" id="toContact" href="#contact">Contact</a>
+>>>>>>> 50ae7f75c02512a4eb318a36ee1ed04ccb2ff318
           </li>
         </ul>
-        <p class="ms-5 mt-2 time" id="time"></p>
       </div>
     </nav>
-
+    <div class="d-flex justify-content-end pe-5">
+      <p class="ms-5 mt-2 time" id="time"></p>
+    </div>
     <div
       class="content d-flex flex-column align-items-center justify-content-center"
     >
@@ -64,7 +79,7 @@
           <div class="col-sm-12 d-flex justify-content-end">
             <input
               type="submit"
-              class="btn btn-primary"
+              class="btn btn-outline-dark"
               id="addBook"
               value="Add"
             />
