@@ -98,6 +98,12 @@ To run the project, execute the following command:
 - Twitter: [@twitterhandle](https://twitter.com/sawmon34268255)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/saw-mon-han/)
 
+👤 **Ronnie Bisaso**
+
+- GitHub: [@bronnie313](https://github.com/bronnie313)
+- Twitter: [@bisaso_r](https://twitter.com/bisaso_r)
+- LinkedIn: [Ronald Bisaso](https://linkedin.com/in/BisasoRonald)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
