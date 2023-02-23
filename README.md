@@ -73,7 +73,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone git@github.com:sawmon71293/personal-portfolio.git
+  git clone git@github.com:sawmon71293/library.git
 ```
 
 ### Install
