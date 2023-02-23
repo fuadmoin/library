@@ -5,10 +5,11 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -44,14 +45,6 @@
 This is to showcase javascript skill.
 
 - **Web designs**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo" title="Coming Soon"></a>
-
-This is yet to be deployed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,6 +97,12 @@ To run the project, execute the following command:
 - GitHub: [@sawmon](https://github.com/sawmon71293/)
 - Twitter: [@twitterhandle](https://twitter.com/sawmon34268255)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/saw-mon-han/)
+
+👤 **Ronnie Bisaso**
+
+- GitHub: [@bronnie313](https://github.com/bronnie313)
+- Twitter: [@bisaso_r](https://twitter.com/bisaso_r)
+- LinkedIn: [Ronald Bisaso](https://linkedin.com/in/BisasoRonald)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

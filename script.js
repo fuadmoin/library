@@ -24,7 +24,7 @@ class Book {
             <div>
               <p class="mt-3 ms-3">${book.title} by ${book.author}</p>
             </div>
-            <div class="mt-2 me-3"><button class="btn btn-outline-primary" data-book=${dataStr} data-action="remove" >Remove</button></div>
+            <div class="mt-2 me-3"><button class="btn btn-outline-dark" data-book=${dataStr} data-action="remove" >Remove</button></div>
           </div>
         </div> `;
         bookList.innerHTML += bookElement;
